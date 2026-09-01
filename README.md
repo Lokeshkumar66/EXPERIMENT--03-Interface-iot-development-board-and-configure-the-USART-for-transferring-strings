@@ -111,12 +111,10 @@ UART transmits and receives data asynchronously, meaning there is no shared cloc
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "main.h"
-#include "stdio.h"
+#include"stdio.h"
 #if defined(__GNUC__)
 #define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
 #endif
-
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
@@ -196,10 +194,10 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-	  printf("LOKESH\n");
-	  printf("212225040209\n");
-	  printf("CSE");
-	  HAL_Delay(500);
+     printf("lokesh kumar\n");
+     printf("212225040209\n");
+     printf("CSE\n");
+     HAL_Delay(500);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
@@ -209,7 +207,6 @@ PUTCHAR_PROTOTYPE
 HAL_UART_Transmit(&huart2,(uint8_t*)&ch,1,0xFFFF);
 return ch;
 }
-
 /**
   * @brief System Clock Configuration
   * @retval None
